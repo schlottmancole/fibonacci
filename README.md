@@ -20,7 +20,7 @@ Calculated fibonacci index is
 n=2*in+1
 ```
 Outputs a 64-bit answer in ASCII hex to STDOUT.
-Works up to $f(92)$. But printf only works up to $f(91)$.
+Works up to $f(93)$. But printf only works up to $f(91)$.
 Results checked visually against https://planetmath.org/listoffibonaccinumbers
 ###### Example Usage:
 ``` bash
