@@ -29,3 +29,17 @@ $ echo -e "\x2E" | ./fib_x86_64
 $ echo -e "\x2D" | ./fib_x86_64 | xargs printf "%d\n"
 4660046610375530309
 ```
+
+### <ins>25-9-2025</ins>
+I decided to switch to python and work from the top down to develop algorithms
+then implement them at lower levels as practice.
+
+I set up a testbench that allows up to 1 second for the python algorithm to complete its calculation.
+
+Starting with a recursive implementation in python/fib_rec.py,
+It gets to f(35) = 9_227_465
+
+With an iterative implementation in python/fib_iter.py,
+I changed the test inputs to grow polynomially.
+
+After f(20_449), the results pass 4_300 digit default limit for integer string conversion.
